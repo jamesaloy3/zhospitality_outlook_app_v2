@@ -1,0 +1,86 @@
+{
+  "version": 2,
+  "notes": "Scaled attribute set: hospitality + airlines. Leave blanks if unknown; all values are strings.",
+  "attributes": [
+    "title",
+    "company",
+    "brand_family",
+    "industry",
+    "asset_class",
+    "company_type",
+    "data_type",
+    "doc_date",
+    "period",
+    "year",
+    "fiscal_quarter",
+    "month",
+    "country",
+    "region",
+    "travel_types",
+    "price_scales",
+    "carrier",
+    "iata_code",
+    "icao_code",
+    "alliance",
+    "network_focus",
+    "language",
+    "source_url"
+  ],
+  "enums": {
+    "asset_class": [
+      "hospitality",
+      "airline",
+      "travel",
+      "real_estate"
+    ],
+    "company_type": [
+      "brand",
+      "reit",
+      "research",
+      "real_estate",
+      "capital_markets",
+      "airline"
+    ],
+    "data_type": [
+      "earnings_call",
+      "10q",
+      "market_research",
+      "commentary",
+      "economic_research",
+      "traffic_report",
+      "investor_presentation"
+    ],
+    "period": [
+      "month",
+      "quarter",
+      "annual"
+    ],
+    "travel_types": [
+      "leisure",
+      "group",
+      "business",
+      "convention"
+    ],
+    "price_scales": [
+      "luxury",
+      "upper_upscale",
+      "upscale",
+      "midscale",
+      "economy",
+      "premium"
+    ],
+    "alliance": [
+      "oneworld",
+      "star",
+      "skyteam",
+      "none"
+    ],
+    "network_focus": [
+      "domestic",
+      "international",
+      "transatlantic",
+      "transpacific",
+      "latin_america"
+    ]
+  }
+}

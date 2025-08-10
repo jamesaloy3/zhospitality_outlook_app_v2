@@ -1,0 +1,6 @@
+openai>=1.59.0
+pydantic>=2.8.2
+typer>=0.12.3
+rich>=13.7.1
+python-dotenv>=1.0.1
+requests>=2.32.3
